@@ -153,7 +153,7 @@ const bKick = { fontFamily: 'var(--font-ui)', fontWeight: 700, fontSize: 12, let
 
 const BWrap = ({ children, style }) => <div style={{ maxWidth: 1760, margin: '0 auto', padding: '0 clamp(24px,5vw,96px)', ...style }}>{children}</div>;
 
-const Kicker = ({ children, color }) => <div style={{ ...bKick, color: color || bKick.color, display: 'flex', alignItems: 'center', gap: 12 }}><span style={{ width: 28, height: 2, background: 'var(--mb-gold)' }}></span>{children}</div>;
+const Kicker = ({ children, color }) => <div className="mb-kicker" style={{ ...bKick, color: color || bKick.color, display: 'flex', alignItems: 'center', gap: 12 }}><span style={{ width: 28, height: 2, background: 'var(--mb-gold)', flex: 'none' }}></span>{children}</div>;
 
 function BHeader() {
   return <header className="site-header" style={{ position: 'sticky', top: 0, zIndex: 20, background: 'rgba(255,255,255,.96)', backdropFilter: 'blur(8px)', borderBottom: '1px solid var(--border-hairline)' }}>
