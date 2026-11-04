@@ -1,0 +1,456 @@
+{
+  "toppers": [
+    {
+      "name": "Hi-Tech",
+      "src": "/assets/site/hi-tech.Omd96RhE.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/hi-tech.Omd96RhE.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "2ebd737dddac8d5ae455e20a898c570b5eb57016ace41c4cc9f659742d65f6cf"
+    },
+    {
+      "name": "Profile 24",
+      "src": "/assets/site/profile-24.SFBfeFch.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/profile-24.SFBfeFch.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "0d6d047848eedc3e7a0d829871756e9dd1ab1942be4a6078407a7962f1993b8c"
+    },
+    {
+      "name": "Glass Series",
+      "src": "/assets/site/glass-series.W3rhLPi1.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/glass-series.W3rhLPi1.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "a691072c1e76528e9f7be83e0a128fc3cb53f5c983891562b9fa522ffd11d0b6"
+    },
+    {
+      "name": "Solid Series",
+      "src": "/assets/site/solid-series.DYMYha2h.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/solid-series.DYMYha2h.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "0f7a9e96ce578c3edf35360edc3cad5ece0462ba9585abd8495b2a401f6e1f37"
+    },
+    {
+      "name": "Wood-Like",
+      "src": "/assets/site/wood-like.BclqmiM1.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/wood-like.BclqmiM1.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "57ea62fba07b360c67b83e790725d27ac19275994200f610c9f88bbc456f6911"
+    },
+    {
+      "name": "Laser-Cut",
+      "src": "/assets/site/laser-cut.CJcioTSz.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/laser-cut.CJcioTSz.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "1d0846c9f72f84e800a2fd915cf63a0b268c66de1935bfba14917e91f38a9505"
+    },
+    {
+      "name": "Classic 48",
+      "src": "/assets/site/classic-48.Bl2iA24K.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/classic-48.Bl2iA24K.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "5a8bdf76362b7ff40fd15cb5c8e8084090fec0961a3e768c3435714888dff227"
+    },
+    {
+      "name": "Tongue & Groove",
+      "src": "/assets/site/tongue-groove.Xwok2oS_.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/tongue-groove.Xwok2oS_.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "4243d69ba14ce5e395c5deed099571360ff4cae9c6c7366a95305b88c423d8ee"
+    }
+  ],
+  "railings": [
+    {
+      "name": "Hi-Tech",
+      "src": "/assets/site/hi-tech.Xt7iuW8p.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/hi-tech.Xt7iuW8p.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "02539c319b5082f917399b9be33da2f610644eddbee9a8f9c8039eaf50a82515"
+    },
+    {
+      "name": "Profile 24",
+      "src": "/assets/site/profile-24.D5UXI6Cm.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/profile-24.D5UXI6Cm.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "248d0b3c3474708b8194c68f8af7a487861ae94431e71d6242226c16be1c8653"
+    },
+    {
+      "name": "Glass Series",
+      "src": "/assets/site/glass-series.D3YUj0Yo.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/glass-series.D3YUj0Yo.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "677eacf8964987b78b8299c525b44436659cad1e43af649dd3d9fec100ec6c70"
+    },
+    {
+      "name": "Solid Series",
+      "src": "/assets/site/solid-series.ByRA-o9f.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/solid-series.ByRA-o9f.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "a8216e0ebd79ae1d19945210e12ee0a5045cdd5552760e990683d796fcd4a318"
+    },
+    {
+      "name": "Wood-Like",
+      "src": "/assets/site/wood-like.BGFIrR7H.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/wood-like.BGFIrR7H.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "9ccc342365b59d79859a76abc769dd6cfd2f9cc24cc1433ef2f158732aab3034"
+    },
+    {
+      "name": "Laser-Cut",
+      "src": "/assets/site/laser-cut.CMruO6Qy.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/laser-cut.CMruO6Qy.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "19c35f02566950905ea89800d63c7b5cbd256f758d1928b78587d745b994cba7"
+    },
+    {
+      "name": "Classic 48",
+      "src": "/assets/site/classic-48.CMgvfGGT.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/classic-48.CMgvfGGT.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "0f346dbea28a83274259bccf58abdec54940195fb8721926e74b38f38c046d2f"
+    },
+    {
+      "name": "Tongue & Groove",
+      "src": "/assets/site/tongue-groove.Cn7jxo_B.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/tongue-groove.Cn7jxo_B.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "2ca5505016200e8f0d052c5838cc551409990b1bef145a558a170229d3d23674"
+    }
+  ],
+  "walk": [
+    {
+      "name": "Hi-Tech",
+      "src": "/assets/site/hi-tech._DDQYcbZ.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/hi-tech._DDQYcbZ.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "066867a0deb10a330ef4f9efa4347943232c699c7bc0ed7a9555dcd116146bf4"
+    },
+    {
+      "name": "Profile 24",
+      "src": "/assets/site/profile-24.CxY2GlSS.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/profile-24.CxY2GlSS.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "496e1a0e9ae82ea7cd5f2c02c841bcd8211f7e5ea98e4e78b23320d825227afb"
+    },
+    {
+      "name": "Glass Series",
+      "src": "/assets/site/glass-series.DDO2MzIk.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/glass-series.DDO2MzIk.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "4e43d335738f45b9decfbd637c383495a879f2bff3764ffd61e24e5e748cf14b"
+    },
+    {
+      "name": "Solid Series",
+      "src": "/assets/site/solid-series.CTeSxQV8.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/solid-series.CTeSxQV8.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "26b57c9975931b443f00d88553f208abd9aec793cc058470f7ae8206709ea786"
+    },
+    {
+      "name": "Wood-Like",
+      "src": "/assets/site/wood-like.CCSRxqHr.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/wood-like.CCSRxqHr.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "dee2832afe9eba95197023b93ce50403221ba13297c7b4982b1f069bffd02fa7"
+    },
+    {
+      "name": "Laser-Cut",
+      "src": "/assets/site/laser-cut.Cqfe79L_.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/laser-cut.Cqfe79L_.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "51808a4e27e51c25b7c9d68e32b2291b4a4c1881c6a3702a7e57f1e1267ce769"
+    },
+    {
+      "name": "Classic 48",
+      "src": "/assets/site/classic-48.DEsPBQC4.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/classic-48.DEsPBQC4.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "69f7d37ba3f41bed2abdcbb889a82a24f03b5cf042f1a5f8962719cba324ef2c"
+    },
+    {
+      "name": "Tongue & Groove",
+      "src": "/assets/site/tongue-groove.DLxR-_mC.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/tongue-groove.DLxR-_mC.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "bef6f0d7575254556c1a1863dadf7229ebbf4cdfbc07e9eb413f05949334cc77"
+    }
+  ],
+  "drive": [
+    {
+      "name": "Hi-Tech",
+      "src": "/assets/site/hi-tech.CScz2mwP.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/hi-tech.CScz2mwP.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "e5e5ff653a4058831a5ba626ff8759e3ead0bc5b80a27cf8e0dbb58139708fa3"
+    },
+    {
+      "name": "Profile 24",
+      "src": "/assets/site/profile-24.DMOFV0bX.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/profile-24.DMOFV0bX.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "2ed774a8238fd8a0641775cbf9fdecf740e356ce2e9953c620818b4867a2cf46"
+    },
+    {
+      "name": "Glass Series",
+      "src": "/assets/site/glass-series.C0yP9PC7.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/glass-series.C0yP9PC7.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "5aea90ea69031df4728aef59ac66d2f9066fb3aabe8765876eb8447fb6a2539f"
+    },
+    {
+      "name": "Solid Series",
+      "src": "/assets/site/solid-series.BgxVsbkM.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/solid-series.BgxVsbkM.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "5fe8a5a0c2cb6e914578f747dad68045076f86cf190f26502fc8946cae72824f"
+    },
+    {
+      "name": "Wood-Like",
+      "src": "/assets/site/wood-like.XAQV07Lh.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/wood-like.XAQV07Lh.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "cfa7c7b5dc96b429ca92d62679067c8c62964b7d567794eea03f71f20fb2ad83"
+    },
+    {
+      "name": "Laser-Cut",
+      "src": "/assets/site/laser-cut.B09Ek2jJ.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/laser-cut.B09Ek2jJ.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "12f0cbff61710f4e56895167c06542f5b3d2a02403c18340e443b689d5bb8b17"
+    },
+    {
+      "name": "Classic 48",
+      "src": "/assets/site/classic-48.Ak1tsbBB.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/classic-48.Ak1tsbBB.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "4449c609aff65fc4273c9fe19d9a76c90e7912e91db545de66cdb227b4397f41"
+    },
+    {
+      "name": "Tongue & Groove",
+      "src": "/assets/site/tongue-groove.C6ANPxPV.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/tongue-groove.C6ANPxPV.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "880aed79b6b13d482d5e8c13ed519a16d11f07cca5db617b82a81cddef32100f"
+    }
+  ],
+  "pergolas": [
+    {
+      "name": "Classic",
+      "src": "/assets/site/classic.DmK0W3_s.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/classic.DmK0W3_s.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "5ee0878d6e4197ed36a63d03f9e428159499fd84903fec49eca97ada1637c39e"
+    },
+    {
+      "name": "Floating",
+      "src": "/assets/site/floating.DH1D6JPP.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/floating.DH1D6JPP.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "2f081e5940aa571d3a4a0c5161e6fdf6bfcc1f94e9cd0919dd017c63fa7b7247"
+    },
+    {
+      "name": "Prestige",
+      "src": "/assets/site/prestige.uS178Lvj.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/prestige.uS178Lvj.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "be6fe85531667e7a28901819193479e1777fd99d0ff0ac4eb67a72db1633f35d"
+    },
+    {
+      "name": "Car-Port",
+      "src": "/assets/site/car-port.gUtM8cnk.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/car-port.gUtM8cnk.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "a6b673b374f015bde7d9dec4d3afc8d79ad96d0825a9b0d21717686e2092d7a4"
+    },
+    {
+      "name": "Hi-Tech Frameless",
+      "src": "/assets/site/high-tech-frameless.CwXxMlEB.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/high-tech-frameless.CwXxMlEB.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "71356bc9d1eef7e91fccb5778f1a4f1bd363b93e5e4e8c7e9ceddfc62660d638"
+    },
+    {
+      "name": "Canopy / Overhang",
+      "src": "/assets/site/canopy-overhang.COyAkPcc.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/canopy-overhang.COyAkPcc.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "315c10fff2c7550aa7a4860e2fb7034f59c480f4b9886742750fcf296f518bda"
+    },
+    {
+      "name": "Glass",
+      "src": "/assets/site/glass.CesvJUiq.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/glass.CesvJUiq.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "c95b80cfe711ae295b0db9f5cb964fb8ec51a819ab31dffc2f94325997565261"
+    },
+    {
+      "name": "Wood-Like",
+      "src": "/assets/site/wood-like.DhrCg5tm.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/wood-like.DhrCg5tm.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "17e3e07c6e5e8f9d20ed5db4bb280d8ccb931b3f21773e5906d547aaadbf6593"
+    },
+    {
+      "name": "Laser-Cut",
+      "src": "/assets/site/laser-cut.DELZVcpR.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/laser-cut.DELZVcpR.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "447b629652407588d5048db55d6ba9a0ceee5c6363cbe34dc73fe1a3aecfb52b"
+    }
+  ],
+  "garage": [
+    {
+      "name": "Hi-Tech",
+      "src": "/assets/site/hi-tech.BJjoAXYb.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/hi-tech.BJjoAXYb.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "cbe290b42ef8da8f916acf441e9dd1f6214991130e2a189b468ebd081f53cbfa"
+    },
+    {
+      "name": "Profile 24",
+      "src": "/assets/site/profile-24.r-UaiT-c.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/profile-24.r-UaiT-c.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "6ef20b8c3fddc0beec05132c0292c7093ea3e6aba22181f492cc8d724242c43e"
+    },
+    {
+      "name": "Glass Series",
+      "src": "/assets/site/glass-series.Co8yZkMU.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/glass-series.Co8yZkMU.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "03bff86f9662d6cf3375e64ac2115cecdb2b411baaa527d3f9a12913f9046a57"
+    },
+    {
+      "name": "Solid Series",
+      "src": "/assets/site/solid-series.DhRV5cc_.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/solid-series.DhRV5cc_.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "a53d4853bfd9b69db31e1d2c16f45e7df384d33fa9b8f96a350e1340ec31bd3c"
+    },
+    {
+      "name": "Wood-Like",
+      "src": "/assets/site/wood-like.CNYC3ArO.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/wood-like.CNYC3ArO.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "19826026249492b1b2a3708c9480b60250971973e8cbab0c9e92331ccaf55b6e"
+    },
+    {
+      "name": "Laser-Cut",
+      "src": "/assets/site/laser-cut.CysIXRdv.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/laser-cut.CysIXRdv.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "d18bfc610eab22668db4a1d5a32cebccf15dc0e0f1771b4117abdf239b7c91ac"
+    },
+    {
+      "name": "Tongue & Groove",
+      "src": "/assets/site/tongue-groove.Bt_y1Rej.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/tongue-groove.Bt_y1Rej.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "76fa998e000140ff960935b3696a20e6190170fa15128555d4f4f40a3026a725"
+    }
+  ],
+  "enclosure": [
+    {
+      "name": "Hi-Tech",
+      "src": "/assets/site/hi-tech.CjeC7rSo.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/hi-tech.CjeC7rSo.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "52c005d9891a2b8561409f3aa998e11062b6e30eca2ea60ca2ebcf51c29982ad"
+    },
+    {
+      "name": "Profile 24",
+      "src": "/assets/site/profile-24.NjQMvrDn.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/profile-24.NjQMvrDn.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "54dc3c1e4a966cabc80f74bb0be03823be5a0f57f6a88bd7d404182263aee364"
+    },
+    {
+      "name": "Glass Series",
+      "src": "/assets/site/glass-series.CEbPS8BN.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/glass-series.CEbPS8BN.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "5333a8ba4d1f57a1b2b9aae94fa2eeae66bf7eb1abebdf0516a664f9deb0f45f"
+    },
+    {
+      "name": "Solid Series",
+      "src": "/assets/site/solid-series.B7y1RJyy.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/solid-series.B7y1RJyy.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "bf2027a2a3762870b059eaedad0e8a106bcc4ac0795593169019a7c409c8ee49"
+    },
+    {
+      "name": "Wood-Like",
+      "src": "/assets/site/wood-like.D8ufHRAA.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/wood-like.D8ufHRAA.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "54fea516b2ed500f1b8ee7fccb9e1c4b4de3ffa822c3abd275bb83ad4388b50f"
+    },
+    {
+      "name": "Laser-Cut",
+      "src": "/assets/site/laser-cut.BOUZFOyL.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/laser-cut.BOUZFOyL.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "f111f8ab5f8b0c5212922149418821a3191daaa26d3cd1a2e09a47060c5eef73"
+    },
+    {
+      "name": "Tongue & Groove",
+      "src": "/assets/site/tongue-groove.bSvfMRf_.webp",
+      "sourceUrl": "https://mulhollandbrand.com/_astro/tongue-groove.bSvfMRf_.webp",
+      "width": 720,
+      "height": 540,
+      "sha256": "e7ddf83fb7fb0da8de5c39b5374b266c3ddeece3a925b148e25ced3c1ab3268e"
+    }
+  ]
+}

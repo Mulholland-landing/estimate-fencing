@@ -1,5 +1,5 @@
-import imageVariants from '../data/images.json';
-import { assetKey } from '../lib/assets.mjs';
+import styleImages from '../data/estimator-style-images.json';
+import { assetUrl } from '../lib/assets.mjs';
 import React from 'react';
 
 import { DS } from './design-system';
@@ -339,22 +339,21 @@ function Counter({ value, set, min = 0, max = 4 }) {
 
 const S8 = [['Hi-Tech', 'hi-tech'], ['Profile 24', 'profile-24'], ['Glass Series', 'glass-series'], ['Solid Series', 'solid-series'], ['Wood-Like', 'wood-like'], ['Laser-Cut', 'laser-cut'], ['Classic 48', 'classic-48'], ['Tongue & Groove', 'tongue-groove']];
 
-const mk = (hashes, skip) => S8.filter(([, sl]) => sl !== skip).map(([n, sl], i) => [n, SITE + sl + '.' + hashes[i] + '.webp']);
+const stylesFor = category => styleImages[category].map(({ name, src }) => [name, assetUrl(src)]);
 
 const FENCE_PH = ['gate-hitech-garden.jpg', 'gate-row-1.jpg', 'house-modern-slat-fence.jpg', 'gate-profile24-palm.jpg', 'woodlook-fence-1-restored.png', 'gate-row-3-restored.png', 'gate-row-2-restored.png', 'woodlook-fence-2-restored.png'];
 
 const PRODUCTS = [
   ['fencing', 'Fencing', 'fencing.DgCiwRll_1moT7C.webp', S8.map(([n], i) => [n, PH + FENCE_PH[i]]), 'linear', 115],
-  ['toppers', 'Wall Toppers', 'hi-tech.Omd96RhE_1hW0LQ.webp', mk(['Omd96RhE', 'SFBfeFch', 'W3rhLPi1', 'DYMYha2h', 'BclqmiM1', 'CJcioTSz', 'Bl2iA24K', 'Xwok2oS_']), 'linear', 70],
-  ['railings', 'Railings', 'railings.BbGbgxjX_2dq6j6.webp', mk(['Xt7iuW8p', 'D5UXI6Cm', 'D3YUj0Yo', 'ByRA-o9f', 'BGFIrR7H', 'CMruO6Qy', 'CMgvfGGT', 'Cn7jxo_B']), 'linear', 140],
-  ['walk', 'Walk Gates', 'walk-gate.cXgE5a0w_Z163qsa.webp', mk(['_DDQYcbZ', 'CxY2GlSS', 'DDO2MzIk', 'CTeSxQV8', 'CCSRxqHr', 'Cqfe79L_', 'DEsPBQC4', 'DLxR-_mC']), 'count', 1800],
-  ['drive', 'Driveway Gates', 'driveway-gate.DBHknbAL_1qfCvF.webp', mk(['CScz2mwP', 'DMOFV0bX', 'C0yP9PC7', 'BgxVsbkM', 'XAQV07Lh', 'B09Ek2jJ', 'Ak1tsbBB', 'C6ANPxPV']), 'drive', 420],
-  ['pergolas', 'Pergolas', 'pergolas.Cn1HMLTg_2w1WBC.webp', [['Classic', 'classic.DmK0W3_s'], ['Floating', 'floating.DH1D6JPP'], ['Prestige', 'prestige.uS178Lvj'], ['Car-Port', 'car-port.gUtM8cnk'], ['Hi-Tech Frameless', 'high-tech-frameless.CwXxMlEB'], ['Canopy / Overhang', 'canopy-overhang.COyAkPcc'], ['Glass', 'glass.CesvJUiq'], ['Wood-Like', 'wood-like.DhrCg5tm'], ['Laser-Cut', 'laser-cut.DELZVcpR']].map(([n, f]) => [n, SITE + f + '.webp']), 'area', 95],
-  ['garage', 'Garage Doors', 'garage-doors.DPA7rod2_vToFk.webp', mk(['BJjoAXYb', 'r-UaiT-c', 'Co8yZkMU', 'DhRV5cc_', 'CNYC3ArO', 'CysIXRdv', 'Bt_y1Rej'], 'classic-48'), 'garage', 6500],
-  ['enclosure', 'Equipment Enclosures', 'equipment-enclosure.CPeNoIz2_ZW6S1F.webp', mk(['CjeC7rSo', 'NjQMvrDn', 'CEbPS8BN', 'B7y1RJyy', 'D8ufHRAA', 'BOUZFOyL', 'bSvfMRf_'], 'classic-48'), 'linear', 125],
+  ['toppers', 'Wall Toppers', 'hi-tech.Omd96RhE_1hW0LQ.webp', stylesFor('toppers'), 'linear', 70],
+  ['railings', 'Railings', 'railings.BbGbgxjX_2dq6j6.webp', stylesFor('railings'), 'linear', 140],
+  ['walk', 'Walk Gates', 'walk-gate.cXgE5a0w_Z163qsa.webp', stylesFor('walk'), 'count', 1800],
+  ['drive', 'Driveway Gates', 'driveway-gate.DBHknbAL_1qfCvF.webp', stylesFor('drive'), 'drive', 420],
+  ['pergolas', 'Pergolas', 'pergolas.Cn1HMLTg_2w1WBC.webp', stylesFor('pergolas'), 'area', 95],
+  ['garage', 'Garage Doors', 'garage-doors.DPA7rod2_vToFk.webp', stylesFor('garage'), 'garage', 6500],
+  ['enclosure', 'Equipment Enclosures', 'equipment-enclosure.CPeNoIz2_ZW6S1F.webp', stylesFor('enclosure'), 'linear', 125],
 ];
-// The export embeds only some product style photos. Retain the product photo for unavailable style assets.
-for (const product of PRODUCTS) product[3] = product[3].map(([name, image]) => [name, imageVariants[assetKey(image)] ? image : SITE + product[2]]);
+
 
 
 const HEIGHTS = { fencing: [[4, .8], [5, .9], [6, 1], [7, 1.15], [8, 1.3]], toppers: [[1, .7], [2, 1], [3, 1.3]], railings: [['36 in', 1], ['42 in', 1.12]], enclosure: [[4, .9], [5, 1], [6, 1.12]] };
@@ -440,7 +439,7 @@ function EstimatorModal({ open, onClose, initP }) {
     <div style={{ display: 'flex', flexWrap: 'wrap', gap: 22 }}>{c.colors.map(([n, col], k) => <button key={n} type="button" onClick={() => up('color', k)} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10, padding: 0, border: 0, background: 'none', cursor: 'pointer', width: 96 }}><span style={{ width: 72, height: 72, borderRadius: '50%', background: k > 4 ? 'repeating-linear-gradient(90deg,' + col + ' 0 8px, rgba(0,0,0,.1) 8px 9px)' : col, border: '1px solid rgba(0,0,0,.12)', boxShadow: c.color[0] === n ? '0 0 0 3px #fff, 0 0 0 5px var(--mb-navy-site)' : 'none' }}></span><span style={{ fontFamily: 'var(--font-ui)', fontSize: 14, fontWeight: c.color[0] === n ? 700 : 500, color: NAVY }}>{n}</span></button>)}</div>,
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(min(100%,340px),1fr))', gap: 32, alignItems: 'start' }}>
       <div style={{ borderRadius: 12, background: NAVY, color: '#fff', overflow: 'hidden' }}>
-        <ResponsivePhoto src={SITE + STAGE[c.id]} alt={c.pname} style={{aspectRatio:'16 / 9'}} />
+        <ResponsivePhoto src={c.style[1]} alt={`${c.pname} — ${c.style[0]}`} style={{aspectRatio:'16 / 9'}} />
         <div style={{ padding: '24px 28px 28px', display: 'flex', flexDirection: 'column', gap: 10 }}>
           <span style={{ fontFamily: 'var(--font-ui)', fontSize: 13, opacity: .8 }}>Estimated installed price</span>
           <span style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 'clamp(32px,3.4vw,46px)', lineHeight: 1, letterSpacing: '-0.02em' }}>{fmt(c.lo)} – {fmt(c.hi)}</span>
@@ -547,3 +546,4 @@ function EstimatorPageV5() {
 }
 
 export default EstimatorPageV5;
+
