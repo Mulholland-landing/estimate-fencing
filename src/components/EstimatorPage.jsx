@@ -1,11 +1,12 @@
 import imageVariants from '../data/images.json';
+import { assetKey } from '../lib/assets.mjs';
 import React from 'react';
 
 import { DS } from './design-system';
 
 import { ResponsiveImage, ResponsivePhoto, MobileCarousel, useIsMobile, MobileTrust, LeadFields, submitLead, useModalFocus } from './mobile';
 
-const registry={MB_ASSET_BASE:'/assets/',MulhollandBrandDesignSystem_0ab04f:DS};
+const registry={MB_ASSET_BASE:import.meta.env.BASE_URL + 'assets/',MulhollandBrandDesignSystem_0ab04f:DS};
 
 const { Button, SectionTag, Eyebrow, EyebrowPill, Icon, LeadForm, CtaBar, FinancingStrip, TrustRow, StatCallout, OfferBox, FeatureItem, ProductTile, ProjectCard, TestimonialCard, ReviewPlatforms, FaqItem, SiteHeader, SiteFooter } = registry.MulhollandBrandDesignSystem_0ab04f;
 
@@ -353,7 +354,7 @@ const PRODUCTS = [
   ['enclosure', 'Equipment Enclosures', 'equipment-enclosure.CPeNoIz2_ZW6S1F.webp', mk(['CjeC7rSo', 'NjQMvrDn', 'CEbPS8BN', 'B7y1RJyy', 'D8ufHRAA', 'BOUZFOyL', 'bSvfMRf_'], 'classic-48'), 'linear', 125],
 ];
 // The export embeds only some product style photos. Retain the product photo for unavailable style assets.
-for (const product of PRODUCTS) product[3] = product[3].map(([name, image]) => [name, imageVariants[image] ? image : SITE + product[2]]);
+for (const product of PRODUCTS) product[3] = product[3].map(([name, image]) => [name, imageVariants[assetKey(image)] ? image : SITE + product[2]]);
 
 
 const HEIGHTS = { fencing: [[4, .8], [5, .9], [6, 1], [7, 1.15], [8, 1.3]], toppers: [[1, .7], [2, 1], [3, 1.3]], railings: [['36 in', 1], ['42 in', 1.12]], enclosure: [[4, .9], [5, 1], [6, 1.12]] };

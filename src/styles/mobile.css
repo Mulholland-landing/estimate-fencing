@@ -56,8 +56,9 @@ a { color: var(--mb-blue); }
   .trust-track > span > span { white-space: nowrap; padding: 0 14px; border-right: 1px solid #cad6e7; }
   .mobile-trust:hover .trust-track, .mobile-trust:active .trust-track { animation-play-state: paused; }
   .hero-actions { flex-direction: column; width: 100%; gap: 10px !important; align-items: stretch !important; }
-  .hero-actions > button { order: 1; height: 48px !important; font-size: 15px !important; width: 100%; max-width: 360px; align-self: center; justify-content: center; }
-  .hero-call { justify-content: center; width: 100%; max-width: 360px; align-self: center; min-height: 44px; background: var(--mb-navy-site); border-radius: 999px; color: white !important; font-size: 15px !important; }
+  .hero-actions > button { order: 0; height: 48px !important; font-size: 15px !important; width: 100%; max-width: 360px; align-self: center; justify-content: center; }
+  .hero-call { order: 1; justify-content: center; width: 100%; max-width: 360px; align-self: center; min-height: 36px; background: transparent; border-radius: 0; color: var(--mb-blue) !important; font-size: 13px !important; }
+  .hero-call svg { width: 15px; height: 15px; }
   .hero-v5 nav { gap: 6px !important; padding: 0 12px 24px !important; }
   .hero-v5 nav a { padding: 8px 12px !important; font-size: 12px !important; }
   .mb-kicker { white-space: nowrap !important; font-size: clamp(9.5px, 2.7vw, 11.5px) !important; letter-spacing: 0.14em !important; gap: 8px !important; }
