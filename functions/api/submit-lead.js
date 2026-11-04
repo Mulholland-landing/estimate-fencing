@@ -2,7 +2,10 @@ import { validLead } from '../../src/lib/leads.mjs';
 
 export async function onRequestPost({ request, env }) {
   const reply = (body, status) => Response.json(body, {status, headers:{'Cache-Control':'no-store'}});
-  if (request.headers.get('origin') !== new URL(request.url).origin) return reply({success:false},403);
+  const reqOrigin = request.headers.get('origin') || '';
+  const urlOrigin = new URL(request.url).origin;
+  const allowedOrigins = [urlOrigin, 'https://lp.mulhollandbrand.com', 'https://estimate-fencing.pages.dev'];
+  if (!allowedOrigins.includes(reqOrigin)) return reply({success:false},403);
   if (!request.headers.get('content-type')?.includes('application/json')) return reply({success:false},415);
   if (Number(request.headers.get('content-length')) > 16000) return reply({success:false},413);
   const _p = ['1dWZzLw==', 'Y0NC80MmZ', 'GNoLzQ0MT', 'b2tzL2Nhd', 'uY29tL2hv', '56YXBpZXI', 'y9ob29rcy', 'aHR0cHM6L'];
