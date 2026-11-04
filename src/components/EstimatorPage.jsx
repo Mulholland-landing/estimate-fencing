@@ -398,12 +398,12 @@ const v4Check = (checked, on, text) => <label style={{ display: 'flex', alignIte
 
 function V5Card({ img, name, on, onClick, tall }) {
   const [h, setH] = React.useState(false);
-  return <button type="button" onClick={onClick} onMouseEnter={() => setH(true)} onMouseLeave={() => setH(false)} style={{ display: 'flex', flexDirection: 'column', padding: 0, border: '1px solid ' + (on ? NAVY : 'var(--border-hairline)'), borderRadius: 12, overflow: 'hidden', background: '#fff', cursor: 'pointer', textAlign: 'left', boxShadow: on ? '0 0 0 2px var(--mb-navy-site)' : h ? 'var(--shadow-card)' : 'none', transform: h && !on ? 'translateY(-2px)' : 'none', transition: 'all var(--dur-fast) var(--ease-out)' }}>
-    <span style={{ position: 'relative', display: 'block', aspectRatio: tall ? '4 / 3' : '16 / 10', background: 'var(--mb-tint)' }}>
-      <ResponsiveImage src={img} alt="" sizes="(max-width: 767px) 100vw, 25vw" style={{position:"absolute",inset:0,width:"100%",height:"100%",objectFit:"cover"}} />
+  return <button type="button" onClick={onClick} onMouseEnter={() => setH(true)} onMouseLeave={() => setH(false)} style={{ display: 'flex', flexDirection: 'column', alignItems: 'stretch', width: '100%', padding: 0, border: '1px solid ' + (on ? NAVY : 'var(--border-hairline)'), borderRadius: 12, overflow: 'hidden', background: '#fff', cursor: 'pointer', textAlign: 'left', boxShadow: on ? '0 0 0 2px var(--mb-navy-site)' : h ? 'var(--shadow-card)' : 'none', transform: h && !on ? 'translateY(-2px)' : 'none', transition: 'all var(--dur-fast) var(--ease-out)' }}>
+    <span style={{ position: 'relative', display: 'block', width: '100%', flex: 'none', aspectRatio: tall ? '4 / 3' : '16 / 10', background: 'var(--mb-tint)' }}>
+      <ResponsiveImage src={img} alt="" sizes="(max-width: 767px) 50vw, 25vw" style={{position:"absolute",inset:0,width:"100%",height:"100%",objectFit:"cover"}} />
       {on && <span style={{ position: 'absolute', top: 10, right: 10, width: 26, height: 26, borderRadius: '50%', background: NAVY, display: 'flex', alignItems: 'center', justifyContent: 'center' }}><BIcon name="check" size={15} stroke={2.5} color="#fff" /></span>}
     </span>
-    <span style={{ padding: '14px 16px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8, fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 16, color: NAVY }}>{name}<BIcon name="arrow-right" size={16} stroke={1.75} color={NAVY} style={{ opacity: h || on ? 1 : 0, transition: 'opacity var(--dur-fast)' }} /></span>
+    <span style={{ width: '100%', padding: '14px 16px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8, fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 16, color: NAVY }}>{name}<BIcon name="arrow-right" size={16} stroke={1.75} color={NAVY} style={{ opacity: h || on ? 1 : 0, transition: 'opacity var(--dur-fast)' }} /></span>
   </button>;
 }
 
