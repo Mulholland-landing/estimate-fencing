@@ -341,7 +341,7 @@ const S8 = [['Hi-Tech', 'hi-tech'], ['Profile 24', 'profile-24'], ['Glass Series
 
 const mk = (hashes, skip) => S8.filter(([, sl]) => sl !== skip).map(([n, sl], i) => [n, SITE + sl + '.' + hashes[i] + '.webp']);
 
-const FENCE_PH = ['gate-hitech-garden.jpg', 'gate-row-1.jpg', 'house-modern-slat-fence.jpg', 'gate-profile24-palm.jpg', 'woodlook-fence-1.jpg', 'gate-row-3.jpg', 'gate-row-2.jpg', 'woodlook-fence-2.jpg'];
+const FENCE_PH = ['gate-hitech-garden.jpg', 'gate-row-1.jpg', 'house-modern-slat-fence.jpg', 'gate-profile24-palm.jpg', 'woodlook-fence-1-restored.png', 'gate-row-3-restored.png', 'gate-row-2-restored.png', 'woodlook-fence-2-restored.png'];
 
 const PRODUCTS = [
   ['fencing', 'Fencing', 'fencing.DgCiwRll_1moT7C.webp', S8.map(([n], i) => [n, PH + FENCE_PH[i]]), 'linear', 115],
