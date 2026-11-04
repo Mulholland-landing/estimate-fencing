@@ -87,6 +87,10 @@ a { color: var(--mb-blue); }
   [data-estimator] > div:first-child button { flex: none; width: 36px !important; height: 36px !important; }
   [data-estimator] h2 { font-size: 28px !important; }
   [data-estimator] p { font-size: 15px !important; }
+  [data-estimator] .carousel-track { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 10px !important; overflow: visible !important; scroll-snap-type: none !important; padding: 0 !important; }
+  [data-estimator] .carousel-slide { flex: initial !important; }
+  [data-estimator] .carousel-controls { display: none !important; }
+  [data-estimator] .carousel-slide button > span:last-child { padding: 10px 12px !important; font-size: 13.5px !important; line-height: 1.2 !important; }
   #faq section > div > div { flex-basis: 100% !important; min-width: 0; }
   #reviews > section { padding-bottom: 24px !important; }
   #faq > section { padding-top: 32px !important; }
